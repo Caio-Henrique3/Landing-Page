@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Fruta e Fruto</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fonteH1 textoCor fs-4" href="">Fruta & Fruto</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link textoCor fs-5" href="#carousel">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link textoCor fs-5" href="#receitas">Receitas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link textoCor fs-5" href="#quemSomos">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link textoCor fs-5" href="#modalContato" data-bs-toggle="modal" data-bs-target="#modalContato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="carousel" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/carrossel-img1.jpg" class="d-block w-100 imagemCarrossel1" alt="Barraca de Frutas">
+            <div class="carousel-caption d-none d-md-block h-50">
+              <h1 class="fonteH1 display-4 banner textoCor">Reaproveite melhor os alimentos!</h1>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/carrossel-img2.jpg" class="d-block w-100 imagemCarrossel2" alt="Produção de alguma comida típica">
+            <div class="carousel-caption d-none d-md-block h-50">
+              <h1 class="fonteH1 display-4 banner textoCor">Economize e ganhe em saúde!</h1>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/receita-abacate.jpg" class="d-block w-100 imagemCarrossel2" alt="Produção de alguma comida típica">
+            <div class="carousel-caption d-none d-md-block h-50">
+              <h1 class="fonteH1 display-4 banner textoCor">Viva mais e melhor!</h1>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/receita-kiwi.jpg" class="d-block w-100 imagemCarrossel2" alt="Produção de alguma comida típica">
+            <div class="carousel-caption d-none d-md-block h-50">
+              <h1 class="fonteH1 display-4 banner textoCor">Diversificação de sabores</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-light" id="receitas">
+        <article class="text-center p-5">
+          <h1 class="textoCor fonteH1">Receitas para economizar e ganhar saúde!</h1>
+          <p>Nossas receitas ajudam você a aproveitar melhor os alimentos, economizar, ganhar tempo e praticidade</p>
+          <p class="tamanhoTexto">  ⬇️ ⬇️ ⬇️  </p>
+        </article>
+
+        <div class="container">
+          <div class="row justify-content-center">
+            <article class="card bordaCard larguraCard p-0 m-5 col-12 col-md-4 col-xl-3">
+              <img src="img/receita-abacate.jpg" class="card-img-top posicaoCard" alt="Deliciosa receita com Abacate">
+              <div class="card-body">
+                <h5 class="card-title fonteH1 textoCor fs-3">Tigela de Abacate</h5>
+                <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+                <a href="#" class="btn corBotao" data-bs-toggle="modal" data-bs-target="#modalReceita">Veja Receita 👁️</a>
+              </div>
+            </article>
+    
+            <article class="card bordaCard larguraCard p-0 m-5 col-12 col-md-4 col-xl-3">
+              <img src="img/receita-kiwi.jpg" class="card-img-top posicaoCard" alt="Deliciosa receita com Kiwi">
+              <div class="card-body">
+                <h5 class="card-title fonteH1 textoCor fs-3">Salada de Kiwi</h5>
+                <p class="card-text">Receita refrescante e cheia de vitaminas para o seu café da manhã!</p>
+                <a href="#" class="btn corBotao" data-bs-toggle="modal" data-bs-target="#modalReceita">Veja Receita 👁️</a>
+              </div>
+            </article>
+    
+            <article class="card bordaCard larguraCard p-0 m-5 col-12 col-md-4 col-xl-3">
+              <img src="img/receita-mix.jpg" class="card-img-top posicaoCard" alt="Deliciosa receita com Vegetais">
+              <div class="card-body">
+                <h5 class="card-title fonteH1 textoCor fs-3">Mix de Vegetais</h5>
+                <p class="card-text">Receita refrescante e cheia de vitaminas para o seu Almoço!</p>
+                <a href="#" class="btn corBotao" data-bs-toggle="modal" data-bs-target="#modalReceita">Veja Receita 👁️</a>
+              </div>
+            </article>
+    
+            <article class="card bordaCard larguraCard p-0 m-5 col-12 col-md-4 col-xl-3">
+              <img src="img/receita-pimentoes.jpg" class="card-img-top posicaoCard" alt="Deliciosa receita com Pimentões">
+              <div class="card-body">
+                <h5 class="card-title fonteH1 textoCor fs-3">Pimentão à Juliana</h5>
+                <p class="card-text">Receita refrescante e cheia de vitaminas para o seu Almoço!</p>
+                <a href="#" class="btn corBotao" data-bs-toggle="modal" data-bs-target="#modalReceita">Veja Receita 👁️</a>
+              </div>
+            </article>
+    
+            <article class="card bordaCard larguraCard p-0 m-5 col-12 col-md-4 col-xl-3">
+              <img src="img/receita-oriental.jpg" class="card-img-top posicaoCard" alt="Deliciosa receita Oriental">
+              <div class="card-body">
+                <h5 class="card-title fonteH1 textoCor fs-3">Receita Oriental</h5>
+                <p class="card-text">Receita refrescante e cheia de vitaminas para o seu Almoço!</p>
+                <a href="#" class="btn corBotao" data-bs-toggle="modal" data-bs-target="#modalReceita">Veja Receita 👁️</a>
+              </div>
+            </article>
+    
+            <article class="card bordaCard larguraCard p-0 m-5 col-12 col-md-4 col-xl-3">
+              <img src="img/receita-beterrabas.jpg" class="card-img-top posicaoCard1" alt="Deliciosa receita com Beterrabas">
+              <div class="card-body">
+                <h5 class="card-title fonteH1 textoCor fs-3">Beterraba Assada</h5>
+                <p class="card-text">Receita refrescante e cheia de vitaminas para o seu Almoço!</p>
+                <a href="#" class="btn corBotao" data-bs-toggle="modal" data-bs-target="#modalReceita">Veja Receita 👁️</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="bg-light" id="quemSomos">
+      <article class="text-center p-5">
+        <h1 class="textoCor fonteH1">Quem Somos? O que Queremos? Nosso Time?</h1>
+        <br>
+        <p class="textoCor fonteH1 fs-3">Quem somos?</p>
+        <p>Uma empresa ainda nova e pouco conhecida, mas que promete agitar o mercado e principalmente sua cozinha,
+          como várias dicas e receitas de pratos deliciosos, que vão além de matar sua fome, fazer com que você fique 
+          mais saudável!!</p>
+        <p class="textoCor fonteH1 fs-3">O que queremos?</p>
+        <p> Buscamos levar à todas as pessoas qualidade de vida, mostrar que não necessariamente porque se come saudavel-
+          mente, deve-se perder o melhor dos temperos da comida. 
+          Convidamos você a seguir uma de nossas receitas e nos passar uma feedback sobre qual sua experiência após experi-
+          mentar ela, e a caso seja positiva, ir nos passando os pontos principais que melhoraram em sua vida e bem estar!!!</p>
+        <p class="textoCor fonteH1 fs-3">Nosso Time?</p>
+      
+        <div class="container">
+          <div class="row justify-content-center">
+            <article class="card bordaCard larguraCard p-0 ms-5 me-5 col-12 col-md-4 col-xl-3">
+              <img src="img/chef.jpg" class="card-img-top posicaoCard" alt="Deliciosa receita com Kiwi">
+              <div class="card-body">
+                <h5 class="card-title fonteH1 textoCor fs-2">Carlos Moneut</h5>
+                <p class="card-text">8º lugar no The Best Chef Awards 2021, e sempre aparece na lista dos 10 melhores Chefs do mundo</p>
+              </div>
+            </article>
+            <article class="card bordaCard larguraCard p-0 ms-5 me-5 col-12 col-md-4 col-xl-3">
+              <img src="img/quemsomos-roberta.jpg" class="card-img-top posicaoCard" alt="Deliciosa receita com Kiwi">
+              <div class="card-body">
+                <h5 class="card-title fonteH1 textoCor fs-2">Roberta Guerra</h5>
+                <p class="card-text">Dona do Hotel Hover, que recebeu 4 estrelas no Guia Michelin</p>
+              </div>
+            </article>
+            <article class="card bordaCard larguraCard p-0 ms-5 me-5 col-12 col-md-4 col-xl-3">
+              <img src="img/quemsomos-andreia.jpg" class="card-img-top posicaoCard" alt="Deliciosa receita com Kiwi">
+              <div class="card-body">
+                <h5 class="card-title fonteH1 textoCor fs-2">Andreia Machado</h5>
+                <p class="card-text">Proprietária do Restaurante Xanaio, que ganhou o RIO GASTRONOMIA 2020</p>
+              </div>
+            </article>                        
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <footer class="bg-secondary pt-4 pb-2 rounded">
+      <p class="text-light text-center">&copy; Caio_Henrique</p>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalContato" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <dialog class="modal-content">
+          <header class="modal-header">
+            <h5 class="modal-title textoCor fonteH1 fs-4" id="staticBackdropLabel">Entre em contato conosco!</h5>
+          </header>
+          <main class="modal-body p-0">
+            <form>
+              <div class="mb-3 pt-3">
+                <label for="exampleInputEmail1" class="form-label">Nome e sobrenome</label>
+                <input type="text" class="form-control" placeholder="Digite aqui seu nome">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="nome@exemplo.com">
+              </div>
+              <div class="form-group">
+                <label for="textArea">Deixe aqui sua sugestão ou comentário</label>
+                <textarea class="form-control" rows="3" placeholder="Insira aqui seu comentário ou sugestão"></textarea>
+              </div>
+              <div class="pt-3 text-center">
+                  <p class="text-secondary">Contato: <strong>email@empresa.com</strong></p>
+              </div>
+            </form>
+          </main>
+          <footer class="modal-footer">
+            <button type="submit" class="btn corBotao">Enviar</button>
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </footer>
+        </dialog>
+      </div>
+    </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalReceita" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <dialog class="modal-content">
+              <header class="modal-header">
+                <h5 class="modal-title textoCor fonteH1 fs-4" id="staticBackdropLabel">Receita do Item Selecionado</h5>
+              </header>
+              <main class="modal-body p-0">
+                Aqui vem a receita do item selecionado;
+              </main>
+              <footer class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              </footer>
+            </dialog>
+          </div>
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+
+  </body>
+</html>

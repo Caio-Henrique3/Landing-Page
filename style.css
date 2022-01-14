@@ -1,0 +1,52 @@
+.imagemCarrossel1 {
+    height: 600px;
+    object-fit: cover;
+    object-position: 0% 80%;
+}
+
+.imagemCarrossel2 {
+    height: 600px;
+    object-fit: cover;
+}
+
+.banner {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.fonteH1 {
+    font-family: 'Pacifico', cursive;
+}
+
+.textoCor {
+    color: darkred !important;
+}
+
+.tamanhoTexto {
+    font-size: 50px;
+}
+
+.corBotao {
+    background-color: darkred !important;
+    color: #FFF !important;
+}
+
+.bordaCard {
+    border-color: darkred !important;
+}
+
+.larguraCard {
+    max-width: 18rem;
+}
+
+.posicaoCard {
+    height: 200px;
+    object-fit: cover;
+}
+
+.posicaoCard1 {
+    height: 200px;
+    object-fit: cover;
+    object-position: 0% 80%;
+}
