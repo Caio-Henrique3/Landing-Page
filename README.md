@@ -1,4 +1,4 @@
-# Alarme ou Timer
+# Landing Page
 
 ## Sobre
 Este projeto tem como finalidade desenvolvimento e aprendizado dos conceitos do Frame-
